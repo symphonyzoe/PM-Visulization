@@ -1,0 +1,29 @@
+{
+        "nodes": [
+                { "name": "Adam" },
+                { "name": "Bob" },
+                { "name": "Carrie" },
+                { "name": "Donovan" },
+                { "name": "Edward" },
+                { "name": "Felicity" },
+                { "name": "George" },
+                { "name": "Hannah" },
+                { "name": "Iris" },
+                { "name": "Jerry" }
+        ],
+        "links": [
+                { "source": "Adam", "target": "Bob" },
+                { "source": "Adam", "target": "Carrie" },
+                { "source": "Adam", "target": "Donovan" },                
+                { "source": "Adam", "target": "Edward" },
+                { "source": "Bob", "target": "Felicity" },
+                { "source": "Carrie", "target": "Felicity" },
+                { "source": "Carrie", "target": "Felicity" },
+                { "source": "Donovan", "target": "Edward" },
+                { "source": "Felicity", "target": "Iris" },
+                { "source": "Felicity", "target": "Jerry" },
+                { "source": "George", "target": "Hannah" },
+                { "source": "Hannah", "target": "Iris" },
+                { "source": "Iris", "target": "Jerry" }
+        ]
+}
