@@ -9,3 +9,7 @@
 - 因为canvas基于像素，所以想要不卡可以降分辨率
 - canvas拿不到每点的对象，所以可能还是需要SVG来实现尝试一下
 - `lecture.md`是上节课的笔记
+  
+## June 5th  
+- 使用PIXI.js进行render
+- PIXI添加了每个点的标签，但是显示效果非常不好
